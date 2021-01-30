@@ -1,0 +1,46 @@
+// .plus {
+//     border-radius: 50%;
+//     border: 2px solid #ffffff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.navi a{
+    color: grey;
+}
+
+.navi a.active{
+    color: black;
+}
+
+.check {
+    cursor: pointer !important;
+}
+
+.form-control:valid {
+    background-image: none !important;
+}
+
+
+.form-control:invalid {
+    background-image: none !important;
+}
+
+.picture {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.videosOrderNumber {
+    width: 30px;
+    height: 20px;
+    border: none;
+    margin-right: 10px;
+}

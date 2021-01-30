@@ -1,0 +1,39 @@
+.overlay {
+    width: 100%;
+    min-height: 65vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-font-size {
+    font-size: 1.8rem;
+}
+
+.btn-size {
+    width: 160px;
+    
+    &-130 {
+        width: 130px;
+    }
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    // background-color: #50a5f1 !important;
+}

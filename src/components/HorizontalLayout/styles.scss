@@ -1,0 +1,51 @@
+@import "../../assets/scss/theme.scss";
+
+.create-btn {
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.visit-site-link {
+    margin-left: 20px;
+    border: 1px gray solid;
+    padding: 2px 7px;
+    color: white;
+    align-self: center;
+    border-radius: 3px;
+    transition: 0.15s;
+
+    &:hover {
+        color:gray;
+    }
+}
+
+.project-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+        border: 1px solid black;
+        padding: 3px;
+    }
+}
+
+.header-buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    img {
+        height: 22px;
+    }
+}
+
+.visite-site-link {
+    display: inline-block;
+    margin-left: 10px;
+}
